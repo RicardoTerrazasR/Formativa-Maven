@@ -19,4 +19,8 @@ Eclipse IDE, SQL Developer
 
 ![3](https://github.com/user-attachments/assets/a2b63a60-bd2a-4061-80d0-b8f27b191589)
 
+**Sotfware:**
+
 <img width="1366" height="730" alt="image" src="https://github.com/user-attachments/assets/e1e9746f-e42b-453c-9eef-fad688774f93" />
+
+<img width="1366" height="730" alt="image" src="https://github.com/user-attachments/assets/10b33c22-0be1-4a8a-ab17-d5d5a9da13ee" />
