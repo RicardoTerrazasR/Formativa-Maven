@@ -40,7 +40,7 @@ CREATE TABLE ESTADISTICA (
     ASISTENCIA NUMBER(5,2),           -- Porcentaje de asistencia
     TIEMPOESTUDIO NUMBER(5,2),         -- Tiempo de estudio por semana (en horas)
     PROMEDIO NUMBER(5,2),              -- Promedio del estudiante en el curso
-    PARTICIPACION NUMBER(5,2),         -- Porcentaje de participación
+    PARTICIPACION NUMBER(5,2),         -- Porcentaje de participaciï¿½n
     IDIOMAS VARCHAR2(100)
 );
 
@@ -70,34 +70,34 @@ VALUES (5, 'Pedro', '1997-11-05', 'pedro@gmail.com','La molina');
 INSERT INTO administrador (idAdministrador, nombre, correo, clave)
 VALUES (1, 'Ricardo', 'ricardo@gmail.com','1234');
 INSERT INTO administrador (idAdministrador, nombre, correo, clave)
-VALUES (2, 'Lucas', 'lucas@gmail.com','1234');
+VALUES (2, 'cliente', 'cliente@gmail.com','1234');
 INSERT INTO administrador (idAdministrador, nombre, correo, clave)
 VALUES (3, 'German', 'german@gmail.com','1234');
 
 -- Datos de curso
 INSERT INTO CURSO (idcurso, nombre, codigo, descripcion, creditos, duracion)
-    VALUES (1, 'Matemáticas', 'MAT101', 'Este curso es una introducción al estudio del álgebra y cálculo básico. Se enfoca en enseñar los conceptos fundamentales de las operaciones algebraicas, la resolución de ecuaciones, la teoría de funciones y los principios básicos de cálculo diferencial e integral. Ideal para estudiantes que desean construir una sólida base en matemáticas para futuras asignaturas más complejas.', 4, 16);
+    VALUES (1, 'Matemï¿½ticas', 'MAT101', 'Este curso es una introducciï¿½n al estudio del ï¿½lgebra y cï¿½lculo bï¿½sico. Se enfoca en enseï¿½ar los conceptos fundamentales de las operaciones algebraicas, la resoluciï¿½n de ecuaciones, la teorï¿½a de funciones y los principios bï¿½sicos de cï¿½lculo diferencial e integral. Ideal para estudiantes que desean construir una sï¿½lida base en matemï¿½ticas para futuras asignaturas mï¿½s complejas.', 4, 16);
 INSERT INTO CURSO (idcurso, nombre, codigo, descripcion, creditos, duracion)
-    VALUES (2, 'Historia Universal', 'HIS102', 'Este curso ofrece una visión detallada de los eventos más significativos que han marcado la historia de la humanidad, desde las civilizaciones antiguas hasta la era contemporánea. Los estudiantes explorarán los cambios políticos, sociales, económicos y culturales que han dado forma al mundo moderno, con énfasis en la historia política, los grandes movimientos sociales y las guerras más importantes.', 3, 12);
+    VALUES (2, 'Historia Universal', 'HIS102', 'Este curso ofrece una visiï¿½n detallada de los eventos mï¿½s significativos que han marcado la historia de la humanidad, desde las civilizaciones antiguas hasta la era contemporï¿½nea. Los estudiantes explorarï¿½n los cambios polï¿½ticos, sociales, econï¿½micos y culturales que han dado forma al mundo moderno, con ï¿½nfasis en la historia polï¿½tica, los grandes movimientos sociales y las guerras mï¿½s importantes.', 3, 12);
 INSERT INTO CURSO (idcurso, nombre, codigo, descripcion, creditos, duracion)
-    VALUES (3, 'Física', 'FIS103', 'El curso de Física cubre los principios fundamentales de la física clásica, incluyendo la mecánica, la termodinámica, el electromagnetismo y la óptica. A través de experimentos y problemas prácticos, los estudiantes comprenderán las leyes que rigen el movimiento de los cuerpos, la energía, la materia y las interacciones fundamentales. Este curso proporciona una base sólida para aquellos interesados en carreras científicas o ingenieriles.', 5, 20);
+    VALUES (3, 'Fï¿½sica', 'FIS103', 'El curso de Fï¿½sica cubre los principios fundamentales de la fï¿½sica clï¿½sica, incluyendo la mecï¿½nica, la termodinï¿½mica, el electromagnetismo y la ï¿½ptica. A travï¿½s de experimentos y problemas prï¿½cticos, los estudiantes comprenderï¿½n las leyes que rigen el movimiento de los cuerpos, la energï¿½a, la materia y las interacciones fundamentales. Este curso proporciona una base sï¿½lida para aquellos interesados en carreras cientï¿½ficas o ingenieriles.', 5, 20);
 INSERT INTO CURSO (idcurso, nombre, codigo, descripcion, creditos, duracion)
-    VALUES (4, 'Química General', 'QUI104', 'Este curso introduce los principios fundamentales de la química, incluyendo la teoría atómica, la estructura molecular, las reacciones químicas y las propiedades de los materiales. Los estudiantes aprenderán a aplicar estos principios a situaciones cotidianas y entenderán la química que ocurre en el mundo que nos rodea. Es un curso esencial para estudiantes que planean seguir estudios en ciencias biológicas, ingenierías o ciencias ambientales.', 4, 14);
+    VALUES (4, 'Quï¿½mica General', 'QUI104', 'Este curso introduce los principios fundamentales de la quï¿½mica, incluyendo la teorï¿½a atï¿½mica, la estructura molecular, las reacciones quï¿½micas y las propiedades de los materiales. Los estudiantes aprenderï¿½n a aplicar estos principios a situaciones cotidianas y entenderï¿½n la quï¿½mica que ocurre en el mundo que nos rodea. Es un curso esencial para estudiantes que planean seguir estudios en ciencias biolï¿½gicas, ingenierï¿½as o ciencias ambientales.', 4, 14);
 INSERT INTO CURSO (idcurso, nombre, codigo, descripcion, creditos, duracion)
-    VALUES (5, 'Literatura Española', 'LIT105', 'En este curso se estudian las principales obras literarias de la literatura española, desde los inicios de la literatura medieval hasta los autores contemporáneos más influyentes. Los estudiantes leerán y analizarán textos de autores como Cervantes, Lorca y Pérez Galdós, abordando temas como la identidad cultural, la evolución de los géneros literarios y el contexto histórico de cada periodo. Ideal para estudiantes interesados en las humanidades, el análisis literario y la cultura española.', 3, 10);
+    VALUES (5, 'Literatura Espaï¿½ola', 'LIT105', 'En este curso se estudian las principales obras literarias de la literatura espaï¿½ola, desde los inicios de la literatura medieval hasta los autores contemporï¿½neos mï¿½s influyentes. Los estudiantes leerï¿½n y analizarï¿½n textos de autores como Cervantes, Lorca y Pï¿½rez Galdï¿½s, abordando temas como la identidad cultural, la evoluciï¿½n de los gï¿½neros literarios y el contexto histï¿½rico de cada periodo. Ideal para estudiantes interesados en las humanidades, el anï¿½lisis literario y la cultura espaï¿½ola.', 3, 10);
 INSERT INTO CURSO (idcurso, nombre, codigo, descripcion, creditos, duracion)
-    VALUES (6, 'Biología', 'BIO106', 'Este curso proporciona una introducción integral a los principios básicos de la biología, enfocándose en la biología celular, la genética, la ecología y la evolución. Los estudiantes explorarán los procesos biológicos fundamentales como la mitosis, la fotosíntesis y la herencia genética, así como los ecosistemas y su equilibrio. Es ideal para aquellos que buscan una comprensión profunda de los seres vivos y sus interacciones con el medio ambiente, y sirve de base para estudios avanzados en biología, medicina o ciencias ambientales.', 5, 18);
+    VALUES (6, 'Biologï¿½a', 'BIO106', 'Este curso proporciona una introducciï¿½n integral a los principios bï¿½sicos de la biologï¿½a, enfocï¿½ndose en la biologï¿½a celular, la genï¿½tica, la ecologï¿½a y la evoluciï¿½n. Los estudiantes explorarï¿½n los procesos biolï¿½gicos fundamentales como la mitosis, la fotosï¿½ntesis y la herencia genï¿½tica, asï¿½ como los ecosistemas y su equilibrio. Es ideal para aquellos que buscan una comprensiï¿½n profunda de los seres vivos y sus interacciones con el medio ambiente, y sirve de base para estudios avanzados en biologï¿½a, medicina o ciencias ambientales.', 5, 18);
 
 -- Insertando datos en la tabla ESTADISTICA
 
 INSERT INTO ESTADISTICA (idEstadistica, idEstudiante, idCurso, asistencia, tiempoEstudio, promedio, participacion, idiomas)
-VALUES (1, 1, 1, 85.5, 10.0, 9.2, 80.0, 'Español, Inglés');
+VALUES (1, 1, 1, 85.5, 10.0, 9.2, 80.0, 'Espaï¿½ol, Inglï¿½s');
 INSERT INTO ESTADISTICA (idEstadistica, idEstudiante, idCurso, asistencia, tiempoEstudio, promedio, participacion, idiomas)
-VALUES (2, 2, 2, 92.0, 8.0, 8.5, 75.0, 'Español');
+VALUES (2, 2, 2, 92.0, 8.0, 8.5, 75.0, 'Espaï¿½ol');
 INSERT INTO ESTADISTICA (idEstadistica, idEstudiante, idCurso, asistencia, tiempoEstudio, promedio, participacion, idiomas)
-VALUES (3, 3, 3, 78.5, 12.0, 7.8, 65.0, 'Español, Inglés');
+VALUES (3, 3, 3, 78.5, 12.0, 7.8, 65.0, 'Espaï¿½ol, Inglï¿½s');
 INSERT INTO ESTADISTICA (idEstadistica, idEstudiante, idCurso, asistencia, tiempoEstudio, promedio, participacion, idiomas)
-VALUES (4, 4, 4, 85.5, 10.0, 9.2, 80.0, 'Español, Inglés');
+VALUES (4, 4, 4, 85.5, 10.0, 9.2, 80.0, 'Espaï¿½ol, Inglï¿½s');
 
 
 DELETE FROM ESTUDIANTE WHERE IDCURSO = 7;
@@ -129,4 +129,4 @@ INNER JOIN curso c ON e.idCurso = c.idCurso;
 
 UPDATE estadistica SET idestudiante=?, idcurso=?, asistencia=?, tiempoestudio=?, promedio=?, participacion=?, idiomas=? WHERE idEstadistica=?;
 
-UPDATE estadistica SET idestudiante=1, idcurso=1, asistencia=2, tiempoestudio=85.5, promedio=9.2, participacion=80, idiomas='Español, Portuguez' WHERE idEstadistica= 1;
+UPDATE estadistica SET idestudiante=1, idcurso=1, asistencia=2, tiempoestudio=85.5, promedio=9.2, participacion=80, idiomas='Espaï¿½ol, Portuguez' WHERE idEstadistica= 1;

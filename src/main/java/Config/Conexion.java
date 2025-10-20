@@ -8,8 +8,8 @@ import java.util.logging.Logger;
 
 public class Conexion {
     Connection con;
-    String url = "jdbc:oracle:thin:@localhost:1521:orcl";
-    String user = "ADMIN";
+    String url = "jdbc:oracle:thin:@localhost:1521:xe";
+    String user = "SYSTEM";
     String pass = "1234";
 
     public Connection conectar() {
