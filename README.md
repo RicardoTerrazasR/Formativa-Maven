@@ -21,7 +21,7 @@ Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
 
 1. **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/usuario/repositorio.git](https://github.com/RicardoTerrazasR/Formativa-Maven.git)
+    git clone https://github.com/RicardoTerrazasR/Formativa-Maven.git
     ```
 
 2. **Instalar dependencias:**
